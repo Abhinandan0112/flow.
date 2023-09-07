@@ -9,4 +9,4 @@ transaction(Name: String, Rider: String, Modelnumber: Int) {
     log("Bike added")
   }
 }
-\
+
