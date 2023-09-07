@@ -2,9 +2,9 @@ pub contract BikesContract {
     pub var bike: {String: Bike}
 
     pub struct Bike {
-        pub var name: String
-        pub var rider: String
-        pub var modelNumber: Int
+        pub let name: String
+        pub let rider: String
+        pub let modelNumber: Int
 
         init(name: String, rider: String, modelNumber: Int) {
             self.name = name
